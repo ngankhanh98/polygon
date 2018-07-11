@@ -22,20 +22,20 @@ Họ tên: -----------------------
 
 	CPoint2D:
 	- mX, mY: float
-	+ CPoint2D()											//khởi tạo 1 điểm
-	+ calcDistance(X: CPoint2D): double						//tính khoảng cách của 2 điểm
+	+ CPoint2D()							//khởi tạo 1 điểm
+	+ calcDistance(X: CPoint2D): double				//tính khoảng cách của 2 điểm
 	+ calcPerimeter(X: CPoint2D, Y: CPoint2D): double		//tính chu vi của 3 điểm
 	+ calcArea(X: CPoint2D, Y: CPoint2D): double			//tính diện tích khu vực 3 điểm
-	+ show(): void											//in ra màn hình tọa độ điểm
+	+ show(): void							//in ra màn hình tọa độ điểm
 
 	CPolygon:
-	+ CPolygon(index: int)									//khởi tạo [index] điểm của đa giác (điểm này có tọa độ xác định)
-	+ ~CPolygon()											//hủy 
-	+ show(): void											//in ra màn hình tọa độ các điểm của đa giác
-	+ calcPerimeter(): double								//tính chu vi đa giác
-	+ calcArea(): double									//tính diện tích đa giác
-	+ isConvexPolygon(): bool								//kiểm tra đa giác lồi hay không
-	+ isPointInPolygon(X: CPoint): bool;					//kiểm tra điểm X có thuộc đa giác 
+	+ CPolygon(index: int)					//khởi tạo [index] điểm của đa giác (điểm này có tọa độ xác định)
+	+ ~CPolygon()						//hủy 
+	+ show(): void						//in ra màn hình tọa độ các điểm của đa giác
+	+ calcPerimeter(): double				//tính chu vi đa giác
+	+ calcArea(): double					//tính diện tích đa giác
+	+ isConvexPolygon(): bool				//kiểm tra đa giác lồi hay không
+	+ isPointInPolygon(X: CPoint): bool;			//kiểm tra điểm X có thuộc đa giác 
 
 
 /////////////////////////////////////////////////////////////////////////////
